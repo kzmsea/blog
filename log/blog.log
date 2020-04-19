@@ -1,0 +1,21 @@
+2020-03-13 15:30:25.056  INFO 8480 --- [main] com.kzm.blog.BlogApplicationTests        : Starting BlogApplicationTests on DESKTOP-OANG0BI with PID 8480 (started by kzmse in D:\JetBrains\ideaWorkspace\blog)
+2020-03-13 15:30:25.088  INFO 8480 --- [main] com.kzm.blog.BlogApplicationTests        : No active profile set, falling back to default profiles: default
+2020-03-13 15:30:28.212  INFO 8480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-13 15:30:28.274  INFO 8480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 0 JPA repository interfaces.
+2020-03-13 15:30:29.454  INFO 8480 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-13 15:30:30.111 ERROR 8480 --- [main] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : logback
+2020-03-13 15:30:34.051  INFO 8480 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-03-13 15:30:34.332  INFO 8480 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-13 15:30:34.676  INFO 8480 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-03-13 15:30:35.207  INFO 8480 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-13 15:30:35.660  INFO 8480 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-13 15:30:36.630  INFO 8480 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-13 15:30:36.663  INFO 8480 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 15:30:37.857  WARN 8480 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-13 15:30:38.544  INFO 8480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:30:38.763  INFO 8480 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-13 15:30:39.591  INFO 8480 --- [main] com.kzm.blog.BlogApplicationTests        : Started BlogApplicationTests in 16.596 seconds (JVM running for 20.939)
+2020-03-13 15:30:40.012  INFO 8480 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-13 15:30:40.012  INFO 8480 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-13 15:30:40.012  INFO 8480 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-03-13 15:30:40.044  INFO 8480 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
